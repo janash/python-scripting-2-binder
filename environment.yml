@@ -1,0 +1,21 @@
+name: molssi_training
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pip
+  - notebook # jupyter noteboook
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - ocrmypdf
+  - scikit-learn
+  - statsmodels
+  - rdkit
+
+  - pip:
+    - tabula-py
+    - plotly
+    - kaleido
